@@ -18,3 +18,15 @@ root{
 body{
     background : var(--eye-ball);
 }
+/* BASIC STYLING */
+
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--lead);
+}
+
+.flex{
+    display:flex;
+    align-items :center;
+}
