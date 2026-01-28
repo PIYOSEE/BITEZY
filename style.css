@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: "Roboto Condensed", sans-serif;
 }
-
 root{
     --lead: #212121;
     --gold-finger : #f2bd12;
@@ -14,19 +13,36 @@ root{
     --hint-yellow: #fcf1cc;
     --pure-white: #fff;
 }
-
 body{
     background : var(--eye-ball);
 }
 /* BASIC STYLING */
-
 a{
     font-size: 1.5rem;
     text-decoration: none;
     color: var(--lead);
 }
-
 .flex{
     display:flex;
     align-items :center;
+}
+li{
+    list-style: none;
+}
+.between{
+    justify-content:space-between;
+}
+.gap-3{
+    gap:3rem;
+}
+.wrapper{
+    max-width: 1400px;
+    background:gold;
+    margin:auto;
+    padding-inline:1.5rem;
+}
+/*HEADER*/
+
+.navbar{
+    min-height: 14vh;
 }
