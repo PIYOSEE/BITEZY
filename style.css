@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "Roboto Condensed", sans-serif;
 }
-root{
+:root{
     --lead: #212121;
     --gold-finger : #f2bd12;
     --eye-ball: #fffdf7;
@@ -36,8 +36,7 @@ li{
     gap:3rem;
 }
 .wrapper{
-    max-width: 1400px;
-    background:gold;
+    max-width: 1900px;
     margin:auto;
     padding-inline:1.5rem;
 }
@@ -45,4 +44,18 @@ li{
 
 .navbar{
     min-height: 14vh;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gold-finger);
+}
+.btn{
+    display:inline-block;
+    padding: .9rem 2rem;
+    background: var(--gold-finger);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    color: var( --pure-white);
+    box-shadow: rgba(45, 44, 44, 0.651) 0 2px 1px;
 }
