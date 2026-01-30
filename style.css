@@ -32,11 +32,14 @@ li{
 .between{
     justify-content:space-between;
 }
+.gap-2{
+    gap:2rem;
+}
 .gap-3{
     gap:3rem;
 }
 .wrapper{
-    max-width: 1900px;
+    max-width: 1800px;
     margin:auto;
     padding-inline:1.5rem;
 }
@@ -58,4 +61,8 @@ li{
     font-size: 1.5rem;
     color: var( --pure-white);
     box-shadow: rgba(45, 44, 44, 0.651) 0 2px 1px;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background: var(--lead);
 }
