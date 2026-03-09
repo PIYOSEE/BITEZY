@@ -49,7 +49,7 @@ li{
     min-height: 14vh;
 }
 .logo{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: var(--gold-finger);
 }
@@ -67,7 +67,6 @@ li{
     background: var(--lead);
 }
 .cart-icon{
-    color: var(--lead);
     font-size: 1.3rem;
     position:relative;
 }
@@ -83,4 +82,23 @@ li{
     color:var(--lead);
     text-align:center;
     line-height:20px;
+}
+
+.desktop-action .hamburger{
+    font-size:1.5rem;
+    display:none;
+
+}
+
+
+/*Media queries*/
+@media screen and (max-width: 780px){
+    .navlist,
+    .desktop-action .btn{
+        display:none;
+    }
+
+    .desktop-action .hamburger{
+        display:block;
+    }
 }
