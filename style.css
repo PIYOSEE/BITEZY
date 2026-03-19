@@ -128,3 +128,12 @@ li{
         transform:translateX(-50%)
     }
 }
+
+
+
+/* SECTIONS STYLING */
+
+.hero-section{
+    min-height: calc(100vh - 14vh);
+
+}
